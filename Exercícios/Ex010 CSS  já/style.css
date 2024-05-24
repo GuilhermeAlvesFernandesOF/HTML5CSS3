@@ -1,0 +1,15 @@
+body{
+    color: brown;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    font-size: 30px;
+    font-style: italic;
+    background-color: white;
+}
+a {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    background-color: white;
+}

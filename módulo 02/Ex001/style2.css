@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    text-align: justify;
+}
+h1 {
+    background-color: #10837d;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    text-shadow: 1px 1px 3px black;
+    /* representações de cores:
+     - Hexadecimal: 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f.
+     - RGB, Red, gren, bule: no código fica: "background-color: rgb (0, 0, 255)" 255 é o máximo e 0 o mínimo.
+     - HSL, Hue, Sturation, Luminosity. Ex no código: hsl (240, 100%, 50%).
+     - Transparência: ex hexadecimal: FFFFFF00 a área 00 é para transparência
+     */
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-style: italic;
+}
+body {
+    background-image: linear-gradient(to bottom, #00adc1 30%, #075dc3, #4751C5);
+    height: 100%;
+    background-attachment: fixed;
+}
+hr {
+    border-color: black;
+}
+a {
+    color:rgb(21, 33, 43);
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 0px 5px 15px black;
+    border-radius: 0px;
+}
+button {
+    border-radius: 0%;
+    background-color: #10837d;
+    margin: 1%;
+
+}
+header {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0px 5px 15px black;
+    border-radius: 0px;
+}
+footer {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 0px 5px 15px black;
+    border-radius: 0px;
+}
+h1#principal {
+    background-color: #065753;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    text-shadow: 1px 1px 3px black;
+}
+.p2 {
+    color: #065753;
+    font-style: italic;
+    font-weight: bold;
+}
+div {
+    display: inline-block;
+    background-color: #065753;
+    border: 10x solid black;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+div:hover{
+    background-color: #10837d;
+}

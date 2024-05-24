@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse seite em vários dispositivos diferentes ou simplesmente aumente e diminua o navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/P.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/M.png" type="image/png">
+        <img src="imagens/G.png" alt="Imagem flexível">
+    </picture>
+    <h1> reproduzindo áudio </h1>
+    <audio src="media/audio01.mp3" controls autoplay> áudio 01</audio>
+    <hr>
+    <audio preload="metadata" autoplay controls loop>
+        <!-- tentando carregar tipode de áudio diferentes-->
+        <source src="media/audio01.mp3" type="audio/mpeg" controls autoplay>
+        <source src="media/audio01.ogg" type="audio/ogg" controls autoplay>
+        <source src="media/audio01.wav" type="audio/eav" controls autoplay>
+        <p>Infelizmente seu navegador não é compativelm clique aqui para baixar: <a href="media/audio01.mp3"> baixar áudio </a></p>
+    </audio>
+
+    <!-- tipos de arquivo
+         para iamgens jpeg jpg png ico
+         para audios mp3 ogg wav
+         para videos mp4 m4v webm mkv ogv "tem um aplicativo chamado HandBrake que pode ser usado para converter os arquivos" -->
+</body>
+</html>

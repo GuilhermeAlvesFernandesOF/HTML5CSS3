@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main {
+            width: 80%;
+            margin: auto;
+        }
+
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+        }
+        div:hover {
+            background-color: rgb(171, 177, 177);
+        }
+        a {
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;    
+        }
+        a:hover {
+            text-decoration: overline;
+            color: red;
+        }
+        a:active{
+            color:yellow;
+        }
+
+        a::after {
+            content: ' -link';
+            text-decoration: none;
+            font-weight: lighter;
+            color:aqua;
+        }
+        a::before {
+            content: '--> ';
+            font-weight: bolder;
+            text-decoration: none;
+            color:aqua;
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <button style="background-color: white; border-radius: 0%;"><a href="cor01.html">Página inicial</a></button>
+    <br>
+    <hr>
+    <h1> Exemplo de Houver </h1>
+    <h2> Passe o mouse em cima do texto abaixo</h2>
+    <div> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita fugiat, eveniet nam obcaecati omnis consequatur voluptatem voluptatum tempora saepe cumque labore illum quo sed laboriosam? Fugiat ad reprehenderit natus qui.
+        <p>texto escondido</p>
+    </div>
+    <p> fim do exemplo </p>
+    <br>
+    <br>
+    <ul>
+        <li><a href="#">página 01</a></li>
+        <li><a href="#">página 02</a></li>
+        <li><a href="#">página 03</a></li>
+        <li><a href="#">sem link</a></li>
+
+    </ul>
+    </main>
+</body>
+</html>
